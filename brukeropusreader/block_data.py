@@ -19,7 +19,14 @@ BLOCK_0 = defaultdict(
     },
 )
 
-BLOCK_7 = {4: "ScSm", 8: "IgSm", 12: "PhSm", 132: "ScSm_(1)", 136: "IgSm_(1)"}
+BLOCK_7 = {
+    4: "ScSm",
+    8: "IgSm",
+    12: "PhSm",
+    56: "PwSm",
+    132: "ScSm_(1)",
+    136: "IgSm_(1)"
+}
 
 BLOCK_11 = {4: "ScRf", 8: "IgRf", 132: "ScRf_(1)", 136: "IgRf_(1)" }
 
@@ -27,6 +34,7 @@ BLOCK_23 = {
     4: "ScSm Data Parameter",
     8: "IgSm Data Parameter",
     12: "PhSm Data Parameter",
+    56: "PwSm Data Parameter",
     132: "ScSm_(1) Data Parameter",
     136: "IgSm_(1) Data Parameter"
 }
