@@ -28,7 +28,14 @@ BLOCK_7 = {
     136: "IgSm_(1)"
 }
 
-BLOCK_11 = {4: "ScRf", 8: "IgRf", 132: "ScRf_(1)", 136: "IgRf_(1)" }
+BLOCK_11 = {
+    4: "ScRf",
+    8: "IgRf",
+    12: "PhRf",
+    56: "PwRf",
+    132: "ScRf_(1)",
+    136: "IgRf_(1)"
+}
 
 BLOCK_23 = {
     4: "ScSm Data Parameter",
@@ -39,10 +46,14 @@ BLOCK_23 = {
     136: "IgSm_(1) Data Parameter"
 }
 
-BLOCK_27 = {4: "ScRf Data Parameter",
-            8: "IgRf Data Parameter",
-            132: "ScRf_(1) Data Parameter",
-            136: "IgRf_(1) Data Parameter"}
+BLOCK_27 = {
+    4: "ScRf Data Parameter",
+    8: "IgRf Data Parameter",
+    12: "PhRf Data Parameter",
+    56: "PwRf Data Parameter",
+    132: "ScRf_(1) Data Parameter",
+    136: "IgRf_(1) Data Parameter" 
+}
 
 DIFFERENT_BLOCKS = {
     31: "AB Data Parameter",
