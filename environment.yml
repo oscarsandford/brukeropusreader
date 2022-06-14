@@ -3,8 +3,8 @@ channels:
     - defaults
 
 dependencies:
-
-    - numpy=1.21.5
+    - numpy
+    - scipy
 
     # mainly for install and a bit more...
     - setuptools
