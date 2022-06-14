@@ -76,7 +76,7 @@ jobs:
       - name: Publish package for release
         if: (github.event_name == 'release' && github.event.action == 'published' && github.repository == 'spectrochempy/brukeropusreader')
         env:
-          ANACONDA_API_TOKEN: ${{ secrets.ANACONDA_UPLOAD_TOKEN }}
+          ANACONDA_API_TOKEN: ${{ secrets.ANACONDA_API_TOKEN }}
         run: |
           conda install anaconda-client
           anaconda upload --force out/*/*.tar.bz2
@@ -84,7 +84,7 @@ jobs:
       - name: Publish development package
         if: (github.event_name == 'push' && github.repository == 'spectrochempy/brukeropusreader')
         env:
-          ANACONDA_API_TOKEN: ${{ secrets.ANACONDA_UPLOAD_TOKEN }}
+          ANACONDA_API_TOKEN: ${{ secrets.ANACONDA_API_TOKEN }}
         run: |
           conda install anaconda-client
           anaconda upload -l dev --force out/*/*.tar.bz2
