@@ -45,7 +45,7 @@ jobs:
 
       - name: Install brukeropusreader
         run: |
-          python3 -m pip install --upgrade pip setuptools wheel
+          python3 -m pip install --upgrade numpy pip setuptools wheel
           python3 -m pip install .
 
       - name: Test
