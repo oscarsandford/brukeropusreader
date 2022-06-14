@@ -34,6 +34,7 @@ jobs:
         with:
           python-version: "3.8"
           activate-environment: brukeropusreader
+          environment-file: environment.yml
           auto-update-conda: true
 
       - name: Install brukeropusreader
