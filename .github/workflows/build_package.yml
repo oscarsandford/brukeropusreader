@@ -70,7 +70,7 @@ jobs:
 
       - name: Build package
         run: |
-          conda install conda-build
+          conda install conda-build conda-verify
           conda-build .conda --output-folder out
 
       - name: Publish package for release
